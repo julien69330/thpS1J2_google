@@ -36,19 +36,89 @@ header img
 	border-radius: 50%;
 }
 
-header img:hover
-{
-	box-shadow: black;
-}
-
-div
+.logo
 {
 	display: flex;
 	justify-content: center;
+	margin-top: 100px;
 }
 
 form
 {
 	display: flex;
 	justify-content: center;
+	margin-top: 20px;
+}
+
+#barre
+{
+	size: 200px;
+}
+
+.button
+{
+	display: inline-block;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.English
+{
+	display: flex;
+	justify-content: center;
+	font-family: roboto, arial;
+	font-size: small;
+	color: black;
+	margin-top: 30px;
+}
+
+footer
+{
+	background-color: #EEEEEE;
+	font-family: soboto, arial;
+	font-size: 12px;
+	color: #757575;
+}
+
+#France
+{
+	display: flex;
+	align-items: center;
+	font-family: soboto, arial;
+	font-size: 12px;
+	margin-top: 12px;
+	margin-right: 12px;
+	color: #757575;
+}
+
+#liens
+{
+	font-family: roboto, arial;
+	color: #757575;
+	font-size: 12px;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-around;
+	gap: 30px;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+#liens a:visited
+{
+	font-family: roboto, arial;
+	color: #757575;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#liens a:hover
+{
+	font-family: roboto, arial;
+	color: #757575;
+	font-size: 12px;
+	text-decoration: underline;
 }
