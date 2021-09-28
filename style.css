@@ -1,0 +1,54 @@
+header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 20px;
+}
+
+header a
+{
+	font-family: roboto, arial;
+	color: black;
+	font-size: small;
+	text-decoration: none;
+}
+
+header a:visited
+{
+	font-family: roboto, arial;
+	color: black;
+	font-size: small;
+	text-decoration: none;
+}
+
+header a:hover
+{
+	font-family: roboto, arial;
+	color: black;
+	font-size: small;
+	text-decoration: underline;
+}
+
+header img
+{
+	border-radius: 50%;
+}
+
+header img:hover
+{
+	box-shadow: black;
+}
+
+div
+{
+	display: flex;
+	justify-content: center;
+}
+
+form
+{
+	display: flex;
+	justify-content: center;
+}
